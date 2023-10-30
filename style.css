@@ -1,0 +1,68 @@
+body{
+    background-color: skyblue;
+}
+
+.center-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid red;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.text-field{
+    padding: 10px 50px;
+    margin: 20px 0;
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-size:18px ;
+    text-align: center;
+}
+
+.btn-style{
+    padding: 10px 30px;
+    border:transparent;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+
+}
+.btn-style:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+}
+
+.an-btn{
+    margin-top: 40px;
+    border: 0;
+    background-color: skyblue;
+}
+
+.an-btn span{
+    margin-top:10px;
+    padding:5px 10px;
+    border: 0;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+#register-div{
+    display: none;
+}
+
+#result-box{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    color: red;
+}
